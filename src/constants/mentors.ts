@@ -1,0 +1,137 @@
+import { Mentor } from '@/types'
+
+export const SKILLS = ['React', 'TypeScript', 'Node.js', 'System Design', 'Product', 'UX Design', 'Career', 'Data']
+
+export const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+
+// Demo data used by src/lib/mentors.ts until a real API is connected
+export const MENTORS: Mentor[] = [
+  {
+    id: 'amara-okafor',
+    name: 'Amara Okafor',
+    title: 'Staff Frontend Engineer',
+    company: 'Northwind Labs',
+    bio: 'I help mid-level engineers grow into senior roles: owning features end to end, writing maintainable React and giving useful code reviews.',
+    skills: ['React', 'TypeScript', 'Career'],
+    languages: ['English'],
+    yearsExperience: 11,
+    rating: 4.9,
+    reviews: 128,
+    pricePerSession: 60,
+    sessionMinutes: 45,
+    availableDays: [1, 3, 5],
+    timeSlots: ['09:00', '11:00', '15:00']
+  },
+  {
+    id: 'lucas-ferreira',
+    name: 'Lucas Ferreira',
+    title: 'Principal Backend Engineer',
+    company: 'Bluefin Systems',
+    bio: 'Distributed systems, APIs and databases. Bring a design you are stuck on and we will whiteboard it together.',
+    skills: ['Node.js', 'System Design', 'TypeScript'],
+    languages: ['English', 'Portuguese'],
+    yearsExperience: 14,
+    rating: 4.8,
+    reviews: 96,
+    pricePerSession: 80,
+    sessionMinutes: 60,
+    availableDays: [2, 4],
+    timeSlots: ['10:00', '14:00', '18:00']
+  },
+  {
+    id: 'mei-chen',
+    name: 'Mei Chen',
+    title: 'Senior Product Designer',
+    company: 'Studio Lattice',
+    bio: 'Portfolio reviews, design critiques and moving from visual design into product thinking.',
+    skills: ['UX Design', 'Product'],
+    languages: ['English', 'Mandarin'],
+    yearsExperience: 9,
+    rating: 4.9,
+    reviews: 74,
+    pricePerSession: 55,
+    sessionMinutes: 45,
+    availableDays: [1, 2, 4],
+    timeSlots: ['08:30', '12:00', '16:30']
+  },
+  {
+    id: 'daniel-weiss',
+    name: 'Daniel Weiss',
+    title: 'Engineering Manager',
+    company: 'Harbor Health',
+    bio: 'First-time managers, 1:1s, hiring loops and how to stay technical while leading a team.',
+    skills: ['Career', 'Product'],
+    languages: ['English', 'German'],
+    yearsExperience: 16,
+    rating: 4.7,
+    reviews: 152,
+    pricePerSession: 90,
+    sessionMinutes: 60,
+    availableDays: [3, 5],
+    timeSlots: ['09:30', '13:00']
+  },
+  {
+    id: 'priya-raman',
+    name: 'Priya Raman',
+    title: 'Lead Data Scientist',
+    company: 'Granite Analytics',
+    bio: 'Breaking into data science, SQL and Python interview prep, and turning analysis into decisions.',
+    skills: ['Data', 'Career'],
+    languages: ['English', 'Tamil'],
+    yearsExperience: 8,
+    rating: 4.8,
+    reviews: 61,
+    pricePerSession: 50,
+    sessionMinutes: 45,
+    availableDays: [0, 2, 6],
+    timeSlots: ['10:00', '17:00', '19:00']
+  },
+  {
+    id: 'sofia-alvarez',
+    name: 'Sofia Alvarez',
+    title: 'Senior Product Manager',
+    company: 'Cobalt Commerce',
+    bio: 'Roadmaps, prioritisation and writing specs engineers actually read. Great for engineers moving into product.',
+    skills: ['Product', 'Career', 'UX Design'],
+    languages: ['English', 'Spanish'],
+    yearsExperience: 10,
+    rating: 4.6,
+    reviews: 43,
+    pricePerSession: 65,
+    sessionMinutes: 45,
+    availableDays: [1, 4],
+    timeSlots: ['11:00', '15:30']
+  },
+  {
+    id: 'kenji-watanabe',
+    name: 'Kenji Watanabe',
+    title: 'Full-stack Engineer',
+    company: 'Freelance',
+    bio: 'Shipping your first full-stack project: React, Node.js, deployment and the bits tutorials skip.',
+    skills: ['React', 'Node.js', 'TypeScript'],
+    languages: ['English', 'Japanese'],
+    yearsExperience: 6,
+    rating: 4.9,
+    reviews: 37,
+    pricePerSession: 35,
+    sessionMinutes: 30,
+    availableDays: [2, 3, 6],
+    timeSlots: ['07:00', '18:30', '20:00']
+  },
+  {
+    id: 'grace-mensah',
+    name: 'Grace Mensah',
+    title: 'Solutions Architect',
+    company: 'Skyline Cloud',
+    bio: 'System design interviews, cloud architecture and preparing for staff-level promotion packets.',
+    skills: ['System Design', 'Career'],
+    languages: ['English', 'French'],
+    yearsExperience: 13,
+    rating: 4.8,
+    reviews: 89,
+    pricePerSession: 75,
+    sessionMinutes: 60,
+    availableDays: [1, 3],
+    timeSlots: ['12:00', '16:00']
+  }
+]

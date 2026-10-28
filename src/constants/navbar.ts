@@ -1,26 +1,16 @@
+import { routers } from './routers'
+
 export const NAVBAR = [
   {
-    label: 'Services & Prices',
-    url: '/service'
+    label: 'Home',
+    url: routers.LANDING
   },
   {
-    label: 'Research',
-    url: '/research'
+    label: 'Find a mentor',
+    url: routers.MENTORS
   },
   {
-    label: 'Values',
-    url: '/values'
-  },
-  {
-    label: 'Set Registry',
-    url: '/registry'
-  },
-  {
-    label: 'Support',
-    url: '/support'
-  },
-  {
-    label: 'More',
-    url: '/service'
+    label: 'My sessions',
+    url: routers.SESSIONS
   }
 ]

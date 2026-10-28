@@ -1,12 +1,30 @@
 import { FC } from 'react'
 import { Stack } from '@mui/material'
+import {
+  CalendarMonth,
+  DarkMode,
+  Language,
+  LightMode,
+  Logout,
+  Schedule,
+  Search,
+  Star,
+  WorkOutlined
+} from '@mui/icons-material'
 
 import Logo from '@/assets/svg/logo.svg?react'
-import { Upload } from '@mui/icons-material'
 
 export const ICON_MAP = {
   logo: Logo,
-  upload: Upload
+  calendar: CalendarMonth,
+  dark: DarkMode,
+  language: Language,
+  light: LightMode,
+  logout: Logout,
+  schedule: Schedule,
+  search: Search,
+  star: Star,
+  work: WorkOutlined
 }
 
 export type IconName = keyof typeof ICON_MAP

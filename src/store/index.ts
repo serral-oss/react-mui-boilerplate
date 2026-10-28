@@ -11,7 +11,7 @@ import { STORE_KEY } from '@/configs'
 const persistConfig = {
   key: STORE_KEY,
   storage,
-  whitelist: ['auth', 'setting']
+  whitelist: ['auth', 'sessions']
 }
 
 const persistedReducer = persistReducer(persistConfig, reducers)
@@ -40,3 +40,4 @@ const useSelector: TypedUseSelectorHook<RootState> = useAppSelector
 export { store, persistor, dispatch, useSelector, useDispatch }
 
 export * from './reducers/auth'
+export * from './reducers/sessions'
