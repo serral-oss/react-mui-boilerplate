@@ -47,7 +47,7 @@ export default function Header() {
           >
             <AppIcon name='logo' size={32} />
             <Typography variant='h6' sx={{ fontWeight: 800 }}>
-              MentorHub
+              Boilerplate
             </Typography>
           </Stack>
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>{nav}</Box>

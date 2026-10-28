@@ -53,7 +53,7 @@ export default function SignIn() {
         <Stack sx={{ alignItems: 'center', gap: 1, mb: 1 }}>
           <AppIcon name='logo' size={48} />
           <Typography variant='h5' component='h1' sx={{ fontWeight: 800 }}>
-            Sign in to MentorHub
+            Sign in to Boilerplate
           </Typography>
         </Stack>
 
